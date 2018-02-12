@@ -1,0 +1,14 @@
+
+Exercise 1
+by JOHN O NEILL - Thursday, 25 January 2018, 11:40 PM
+ 
+My name is John, so the first and last letter of my name (J + N = 10 + 14) give the number  24. The 24th Fibonacci number is 46368.
+
+Exercise 2
+by JOHN O NEILL - Monday, 5 February 2018, 10:47 PM
+ 
+My surname is O'Neill The first letter O is number 79 The last letter l is number 108 Fibonacci number 187 is 538522340430300790495419781092981030533
+ord() short form of 'ordinal' which means a number defining the position of something in a series, such as ‘first’, ‘second’, or ‘third’. 
+This function is useful for converting a single character to it’s corresponding ASCII value...The ASCII table has 128 characters, with values from 0 through 127. 
+Thus, 7 bits are sufficient to represent a character in ASCII;
+O on ASCII Table = 079, l = 108... used to calculate the Fibonacci Number.
