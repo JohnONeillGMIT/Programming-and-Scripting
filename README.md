@@ -1,2 +1,2 @@
-Here goes with Exercises for Weeks 1&2....
+Exercises for Weeks 1&2 complete
 Exercise Week 3 contains the Collatz Conjecture workings
