@@ -8,14 +8,21 @@
 
 #NB "Read" the file... print (file.read())
 
-#with open("Data/iris.csv.txt") as openedfile:
-    #for x in range(1,12):
-measures = ['PetalLength', '1','PetalWidth', '2']
-output = 'see {0[0]}{0[2]}'.format(measures) 
-#https://www.youtube.com/watch?v=vTX3IwquFkc (String Format Tutorial)
-print(output)
+ #"with" opens and closes file when finished
+with open("Data/iris.csv.txt") as openedfile:
+    for line in openedfile:
+        print (line.split(','), end ='')
+        
+        #output = '{0[:4.2f]}{1[:4.3f]}'
+       # print(output)
+    
 
-    #"with" opens and closes file when finished
+#measures = ['PetalLength', 'PetalWidth','SepalLength','SepalWidth']
+#output = '{0[1]}{0[2]}'.format(measures) 
+#https://www.youtube.com/watch?v=vTX3IwquFkc (String Format Tutorial)
+#print(output)
+
+    
    # for x in openedfile[0,16]:
     #    print(repr(x).rjust(3), end='')
    # print(openedfile.read())
