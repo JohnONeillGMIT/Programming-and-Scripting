@@ -1,5 +1,6 @@
 
 # John O'Neill started 09/02/2018 to 13/02/2018!!.... Exercise Week3
+#Loops until the value comes back as 1
 
 n = int(input("Please enter an Integer: "))
   
