@@ -7,11 +7,37 @@
 # decimal places aligned, with a space between the columns
 
 #NB "Read" the file... print (file.read())
+#need u to work!!!
 
+import json
+import csv
+
+f = open("Data/Iris.csv.txt",newline='')
+reader =csv.reader(f) #reader function to parse data from the file
+
+#insert headers
+
+data=[]
+for row in reader:
+  print(row[0],row[1],row[2],row[3],row[4])
+ #for line in f:
+  #line.split(',')
+  #print(line)#need to convert thestring to alist
+
+#list = int(line.split(','))
+#for l in list:
+ # print (list[0,1,2,4,5])
  #"with" opens and closes file when finished
-with open("Data/iris.csv.txt") as openedfile:
-    for line in openedfile:
-        print (line.split(','), end ='')
+#with open("Data/iris.csv.txt") as f:
+  #  for line in f:
+    #   print (line.split(',')([0])
+        #line.split(',')
+        
+
+        #Line split breaks up a string and used the 
+        #defined seaparator "," in this case placed between each variable
+        #  http://www.pythonforbeginners.com/dictionary/python-split
+   
         
         #output = '{0[:4.2f]}{1[:4.3f]}'
        # print(output)
@@ -29,5 +55,3 @@ with open("Data/iris.csv.txt") as openedfile:
    # for line in openedfile:
     #    print(line.split(",")[0])
     #    '{}{}{}'.format('5''6''11')
-
-
