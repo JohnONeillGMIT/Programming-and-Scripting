@@ -1,5 +1,6 @@
 #### Completed [Python](https://www.python.org/) Exercises to 8 April 2018 in Programming and Scripting Module
 ##### Note: the .py files are set out in format **ExerciseWeek1.py to ExerciseWeek6.py**
+##### nearly all changes to github repository were made through manual uploads as opposed to using git...
 
 
 #### Exercises for Weeks 1&2 complete
