@@ -1,25 +1,54 @@
 #John O'Neill Iris formatting file 24/03/18
 
-#Iris data set prints the four numerical values on each 
+#'''Iris data set prints the four numerical values on each 
 #row in a nice format. That is, on the screen should
 # be printed the petal length, petal width, sepal length 
 # and sepal width, and these values should have the
 # decimal places aligned, with a space between the columns
 
-#NB "Read" the file... print (file.read())
-#need u to work!!!
 
-import json
+
+# the version that worked after 2 weeks!!
+# Referenced numerous sites/tutorials 
+# https://www.youtube.com/watch?v=Xi52tx6phRU Referenced in relation to opening files in CSV and formatting "CSV Files in Python || Python Tutorial || Learn Python Programming"
+# http://www.pythonforbeginners.com/dictionary/python-split
+# https://www.youtube.com/watch?v=vTX3IwquFkc (String Format Tutorial)
+
+
+
+#version 1
+
 import csv
 
-f = open("Data/Iris.csv.txt",newline='')
+with open("Data/Iris.csv", newline='') as f:
+ for line in f:  #Python tutorial
+   print('{:4}{:4}{:4}{:4}'.format(line.split(',')[0], line.split(',')[1], line.split(',')[2], line.split(',')[3]))
+#aligning the numbers in the columns with 1 space and added the splits
+#code seems a bit rough but it works...
+
+
+#Version 2 not using the line.split and .format
+import csv
+
+f= open("Data/Iris.csv",newline='') #aware this is not the optimum way to Open...but it works for me.
 reader =csv.reader(f) #reader function to parse data from the file
-
-#insert headers
-
-data=[]
+#measures = 'P.Len' 'P.Wid''S.Len''S.Wid'
+#print(measures)#insert headers
 for row in reader:
-  print(row[0],row[1],row[2],row[3],row[4])
+  PetalLength = float(row[0])
+  PetalWidth= float(row[1])
+  SepalLength= float(row[2])
+  SepalWidth= float(row[3])
+  Description= str(row[4])
+  print(row[0],row[1],row[2],row[3])
+
+f.close
+
+
+#Other Workings....
+
+# https://www.youtube.com/watch?v=Xi52tx6phRU Referenced in relation to opening files in CSV and formatting "CSV Files in Python || Python Tutorial || Learn Python Programming"
+
  #for line in f:
   #line.split(',')
   #print(line)#need to convert thestring to alist
