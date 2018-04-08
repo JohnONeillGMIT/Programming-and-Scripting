@@ -7,7 +7,7 @@
 ExerciseWeek1: Demonstrates the Fib Function
 ExerciseWeek2: Demonstrates the ASCII coding and ord
 
-##### Exercise Week3
+##### Exercise Week3 (ExerciseWeek3.py)
 ##### **Collatz Conjecture** This demonstrates the [Collatz](https://en.wikipedia.org/wiki/Collatz_conjecture)
 Code uses the While and If/Else loops to calculate the sequence of Integers, also shows how to assign the Class
 
