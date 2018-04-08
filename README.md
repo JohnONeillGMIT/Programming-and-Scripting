@@ -3,8 +3,8 @@
 
 #### Exercises for Weeks 1&2 complete
 ##### **Fibonacci Sequence:** This demonstrates the [Fibonacci Def.](https://en.wikipedia.org/wiki/Fibonacci_number)
-###### ExerciseWeek1: Demonstrates the Fib Function
-###### ExerciseWeek2: Demonstrates the ASCII coding and ord
+###### ExerciseWeek1: Demonstrates the Fib Function with code taken directly from lecture notes and amended slightly
+###### ExerciseWeek2: Demonstrates the ASCII coding and ord functionality.
 
 #### Exercise Week3 (ExerciseWeek3.py)
 ##### **Collatz Conjecture** This demonstrates the [Collatz](https://en.wikipedia.org/wiki/Collatz_conjecture)
@@ -13,9 +13,9 @@
 #### Exercise Week4
 ###### Lowest Common Multiple example (for 1-20 specifically) using Range and While loops.. seeing the use of Continue/Break functionality for fisrt time.
 
-#### Exercise Week5
-##### Coding for the use of CSV file read/write and formatting. This code brings in the use of the CSV Import and format functionality.
-###### Shows specific use of offset coding and floating point formatting to improve to visual aspect of the print outputs.
+#### Exercise Week5 - there are *2 versions* of the code loaded in ExerciseWeek5
+##### Coding for the use of CSV file read/write and formatting of lines into Elements and columns/rows through the uses of splits, strips,delimiters, and the importance of opening closing files correctly (not to mentiaon the importance of saving down the csv files correctly !). This code brings in the use of the CSV Import and format functionality.
+###### Shows specific use of offset coding and floating point formatting to improve to visual aspect of the print outputs. 
 
 #### Exercise Week6
 ##### **Factorials Exercise:** The file demonstrates the use of a function to be "generic" in nature.
