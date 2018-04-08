@@ -19,6 +19,6 @@ Lowest Common Multiple example (for 1-20 specifically) using Range and While loo
 Shows specific use of offset coding and floating point formatting to improve to visual aspect of the print outputs.
 
 ##### Exercise Week6
-#####**Factorials Exercise:** The file demonstrates the use of a function to be "generic" in nature.
+##### **Factorials Exercise:** The file demonstrates the use of a function to be "generic" in nature.
 User is asked for an Integer input and returns the result of the Factorial function
 idea is to to keep the code easily adaptable.
